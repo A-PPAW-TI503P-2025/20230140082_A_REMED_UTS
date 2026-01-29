@@ -1,0 +1,120 @@
+/* Color Palette:
+   Navy: #2A4158
+   Teal: #5B9C9C
+   Beige: #F1E7D8
+   Sky Blue: #6C9DB8
+   White: #FFFFFF
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #F1E7D8;
+  min-height: 100vh;
+  color: #2A4158;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 2rem;
+}
+
+.footer {
+  background: #2A4158;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0.25rem 0;
+}
+
+.footer p:first-child {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.footer p:last-child {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+/* Global button styles */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1E7D8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5B9C9C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2A4158;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.book-card,
+.book-detail-card,
+.form-card,
+.borrow-card,
+.success-card {
+  animation: fadeIn 0.3s ease-out;
+}
