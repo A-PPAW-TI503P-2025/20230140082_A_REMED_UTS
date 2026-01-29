@@ -143,6 +143,16 @@ Frontend berjalan di: `http://localhost:5000`
 
 ---
 
+## Database
+
+### Tabel Books
+![Tabel Books](screenshots/utspaw_db1.png)
+
+### Tabel Borrow
+![Tabel Borrow](screenshots/utspaw_db2.png)
+
+---
+
 ## Catatan
 
 - Pastikan MySQL server sudah berjalan sebelum menjalankan backend
