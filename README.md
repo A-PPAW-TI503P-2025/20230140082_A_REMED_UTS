@@ -1,6 +1,6 @@
-# 📚 Library System with Geolocation
+# Library System with Geolocation
 
-## 📋 Deskripsi Proyek
+## Deskripsi Proyek
 
 Aplikasi **Library System with Geolocation** adalah sistem perpustakaan digital yang memungkinkan pengguna untuk:
 - Melihat daftar buku yang tersedia
@@ -19,7 +19,7 @@ Aplikasi **Library System with Geolocation** adalah sistem perpustakaan digital 
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 ### Prasyarat
 - Node.js
@@ -72,7 +72,7 @@ Frontend berjalan di: `http://localhost:5000`
 
 ---
 
-## 🎮 Fitur & Penggunaan
+## Fitur & Penggunaan
 
 ### Mode Guest
 - Melihat daftar buku
@@ -108,7 +108,7 @@ Frontend berjalan di: `http://localhost:5000`
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### 1️⃣ Public Endpoints (Tanpa Header)
 | Method | Endpoint | Deskripsi |
@@ -143,7 +143,7 @@ Frontend berjalan di: `http://localhost:5000`
 
 ---
 
-## 📝 Catatan
+## Catatan
 
 - Pastikan MySQL server sudah berjalan sebelum menjalankan backend
 - Browser akan meminta izin akses lokasi saat meminjam buku
