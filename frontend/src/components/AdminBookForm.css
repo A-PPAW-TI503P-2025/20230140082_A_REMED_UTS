@@ -1,0 +1,126 @@
+.admin-form-page {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.back-link {
+    display: inline-block;
+    color: #5B9C9C;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.back-link:hover {
+    color: #2A4158;
+}
+
+.form-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 40px rgba(42, 65, 88, 0.15);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-header h1 {
+    font-size: 1.75rem;
+    color: #2A4158;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.form-header p {
+    color: #6C9DB8;
+}
+
+.error-message {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #2A4158;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    border: 2px solid #F1E7D8;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #5B9C9C;
+    box-shadow: 0 0 0 3px rgba(91, 156, 156, 0.15);
+}
+
+.form-group input::placeholder {
+    color: #adb5bd;
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.form-actions .btn {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-cancel {
+    background: #F1E7D8;
+    color: #2A4158;
+}
+
+.btn-cancel:hover {
+    background: #e5dac9;
+}
+
+.btn-submit {
+    background: #5B9C9C;
+    color: white;
+}
+
+.btn-submit:hover {
+    background: #4a8a8a;
+    transform: translateY(-2px);
+}
+
+.btn-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}

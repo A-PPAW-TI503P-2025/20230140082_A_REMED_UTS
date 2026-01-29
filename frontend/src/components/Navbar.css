@@ -1,0 +1,119 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #2A4158;
+  box-shadow: 0 4px 15px rgba(42, 65, 88, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-menu a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-menu a:hover {
+  color: white;
+  background: #5B9C9C;
+}
+
+.navbar-menu a.active {
+  color: white;
+  background: #5B9C9C;
+}
+
+.navbar-role {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.role-selector,
+.user-id-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.role-selector label,
+.user-id-input label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.875rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.role-selector select,
+.user-id-input input {
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  border: none;
+  border-radius: 8px;
+  background: #F1E7D8;
+  color: #2A4158;
+  font-size: 0.875rem;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%232A4158' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  min-width: 100px;
+}
+
+.role-selector select:hover,
+.user-id-input input:hover {
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%232A4158' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+}
+
+.user-id-input input {
+  width: 80px;
+  padding-right: 0.75rem;
+  background-image: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .navbar-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-role {
+    flex-direction: column;
+  }
+}
