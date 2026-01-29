@@ -1,14 +1,5 @@
 # 📚 Library System with Geolocation
 
-## Identitas Mahasiswa
-- **Nama**: [Nama Lengkap Anda]
-- **NIM**: 20230140082
-- **Kelas**: A
-- **Mata Kuliah**: Pengembangan Aplikasi Web (PAW)
-- **Jenis Ujian**: Remedial UTS
-
----
-
 ## 📋 Deskripsi Proyek
 
 Aplikasi **Library System with Geolocation** adalah sistem perpustakaan digital yang memungkinkan pengguna untuk:
@@ -117,29 +108,6 @@ Frontend berjalan di: `http://localhost:5000`
 
 ---
 
-## 📁 Struktur Folder
-
-```
-20230140082_A_REMED_UTS/
-├── backend/
-│   ├── config/
-│   ├── models/
-│   ├── routes/
-│   ├── index.js
-│   └── .env
-├── frontend/
-│   ├── public/
-│   │   └── buku.png
-│   ├── src/
-│   │   ├── components/
-│   │   ├── api.js
-│   │   └── App.js
-│   └── package.json
-└── README.md
-```
-
----
-
 ## 🌐 API Endpoints
 
 ### 1️⃣ Public Endpoints (Tanpa Header)
@@ -175,24 +143,8 @@ Frontend berjalan di: `http://localhost:5000`
 
 ---
 
-## 🎨 Color Palette
-
-| Warna | Kode Hex | Penggunaan |
-|-------|----------|------------|
-| Navy | #2A4158 | Navbar, Footer |
-| Teal | #5B9C9C | Buttons, Accent |
-| Beige | #F1E7D8 | Background |
-| Sky Blue | #6C9DB8 | Secondary |
-| Light Blue | #bfe5ef | Book Cover BG |
-
----
-
 ## 📝 Catatan
 
 - Pastikan MySQL server sudah berjalan sebelum menjalankan backend
 - Browser akan meminta izin akses lokasi saat meminjam buku
 - Jika lokasi tidak tersedia, akan menggunakan lokasi default (Jakarta)
-
----
-
-© 2024 - Praktikum Pengembangan Aplikasi Web
