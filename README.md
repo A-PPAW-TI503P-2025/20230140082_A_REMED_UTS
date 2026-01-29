@@ -125,7 +125,7 @@ Frontend berjalan di: `http://localhost:5000`
 | Method | Endpoint | Body | Deskripsi |
 |--------|----------|------|-----------|
 | POST | /api/books | `{"title": "...", "author": "...", "stock": 10}` | Tambah buku baru |
-| PUT | /api/books/:id | `{"stock": 10}` | Update buku |
+| PUT | /api/books/:id | `{"stock": 3}` | Update buku |
 | DELETE | /api/books/:id | - | Hapus buku |
 | GET | /api/borrow | - | Lihat semua log peminjaman |
 
@@ -137,7 +137,7 @@ Frontend berjalan di: `http://localhost:5000`
 ### 3️⃣ User Endpoints (Header: `x-user-role: user` + `x-user-id: 1`)
 | Method | Endpoint | Body | Deskripsi |
 |--------|----------|------|-----------|
-| POST | /api/borrow | `{"bookId": 1, "latitude": -6.2088, "longitude": 106.8456}` | Pinjam buku |
+| POST | /api/borrow | `{"bookId": 8, "latitude": -6.2088, "longitude": 106.8456}` | Pinjam buku |
 
 ![POST Pinjam Buku](screenshots/utspaw_pinjambuku.png)
 
